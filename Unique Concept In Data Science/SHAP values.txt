@@ -4,3 +4,56 @@ What it is:
 SHAP is a game-theory-based method used to explain the output of any machine learning model. 
 It tells you how much each feature contributed to a particular prediction.
 
+////💡 What is SHAP?
+
+SHAP helps us understand why a machine learning model made a specific prediction.
+
+Imagine you’re predicting whether a person will survive the Titanic based on their data (like age, gender, ticket class, etc.). Your model gives a prediction like:
+
+    ❗ "This person will not survive."
+
+But... why did the model say that? 🤔
+
+That’s where SHAP comes in.
+
+🔍 SHAP Tells You:
+
+    "This person didn’t survive mainly because:
+
+        👤 Gender = male (bad for survival in Titanic)
+
+        🎫 Ticket class = 3rd (poorer class, less chance)
+
+        💰 Fare = low
+
+        🧓 Age = young (small positive effect)
+        "
+
+It tells you which features helped and which features hurt the prediction.
+📊 Two Types of Plots:
+
+    Force Plot (Single Person):
+
+        Explains one prediction.
+
+        Shows how each feature pushed the prediction toward survive or not.
+
+    Summary Plot (All People):
+
+        Explains which features matter the most overall.
+
+        E.g., "Gender" might be the most important feature.
+
+🔁 Example in Real Life:
+
+Like a teacher saying:
+
+    "Swagat got 70 marks. Here's why:
+
+        He studied well for English.
+
+        But didn’t prepare much for Math.
+
+        And missed one assignment."
+
+That’s what SHAP does — it justifies the model’s result like a teacher justifies a grade.
