@@ -1,0 +1,6 @@
+🔍 SHAP Values (SHapley Additive exPlanations)
+
+What it is:
+SHAP is a game-theory-based method used to explain the output of any machine learning model. 
+It tells you how much each feature contributed to a particular prediction.
+
