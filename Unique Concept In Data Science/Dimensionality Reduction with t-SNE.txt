@@ -1,0 +1,10 @@
+🎯 Concept: Dimensionality Reduction with t-SNE
+
+(Visualizing high-dimensional data in a way our brain understands)
+🧠 What is it?
+
+Imagine you have a dataset with hundreds of features (e.g., pixels in an image, sensors in IoT, words in a sentence). It’s hard to visualize or understand this data directly.
+
+That’s where t-SNE (t-distributed Stochastic Neighbor Embedding) comes in.
+
+It reduces high-dimensional data to 2D or 3D so you can visualize it — while keeping the structure and relationships between points!
